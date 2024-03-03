@@ -1,4 +1,4 @@
-package net.javaguides.springboot.exception;
+package net.codefusionhub.springboot.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

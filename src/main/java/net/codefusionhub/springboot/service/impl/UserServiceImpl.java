@@ -1,21 +1,17 @@
-package net.javaguides.springboot.service.impl;
+package net.codefusionhub.springboot.service.impl;
 
 import lombok.AllArgsConstructor;
-import net.javaguides.springboot.dto.UserDto;
-import net.javaguides.springboot.entity.User;
-import net.javaguides.springboot.exception.EmailAlreadyExistsException;
-import net.javaguides.springboot.exception.ResourceNotFoundException;
-import net.javaguides.springboot.mapper.AutoUserMapper;
-import net.javaguides.springboot.mapper.UserMapper;
-import net.javaguides.springboot.repository.UserRepository;
-import net.javaguides.springboot.service.UserService;
-import org.apache.logging.log4j.util.Strings;
+import net.codefusionhub.springboot.dto.UserDto;
+import net.codefusionhub.springboot.entity.User;
+import net.codefusionhub.springboot.exception.EmailAlreadyExistsException;
+import net.codefusionhub.springboot.mapper.AutoUserMapper;
+import net.codefusionhub.springboot.repository.UserRepository;
+import net.codefusionhub.springboot.service.UserService;
+import net.codefusionhub.springboot.exception.ResourceNotFoundException;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
-import org.springframework.util.StringUtils;
 
 import java.util.List;
-import java.util.Objects;
 import java.util.Optional;
 import java.util.stream.Collectors;
 

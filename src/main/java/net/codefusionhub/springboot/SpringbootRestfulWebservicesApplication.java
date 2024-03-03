@@ -1,4 +1,4 @@
-package net.javaguides.springboot;
+package net.codefusionhub.springboot;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;

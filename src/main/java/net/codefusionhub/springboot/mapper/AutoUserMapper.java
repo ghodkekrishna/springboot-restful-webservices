@@ -1,7 +1,7 @@
-package net.javaguides.springboot.mapper;
+package net.codefusionhub.springboot.mapper;
 
-import net.javaguides.springboot.dto.UserDto;
-import net.javaguides.springboot.entity.User;
+import net.codefusionhub.springboot.dto.UserDto;
+import net.codefusionhub.springboot.entity.User;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

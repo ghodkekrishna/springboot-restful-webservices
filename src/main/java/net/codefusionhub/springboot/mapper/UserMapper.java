@@ -1,7 +1,7 @@
-package net.javaguides.springboot.mapper;
+package net.codefusionhub.springboot.mapper;
 
-import net.javaguides.springboot.dto.UserDto;
-import net.javaguides.springboot.entity.User;
+import net.codefusionhub.springboot.dto.UserDto;
+import net.codefusionhub.springboot.entity.User;
 
 public class UserMapper {
 

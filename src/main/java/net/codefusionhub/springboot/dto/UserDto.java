@@ -1,4 +1,4 @@
-package net.javaguides.springboot.dto;
+package net.codefusionhub.springboot.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,7 +1,6 @@
-package net.javaguides.springboot.service;
+package net.codefusionhub.springboot.service;
 
-import net.javaguides.springboot.dto.UserDto;
-import net.javaguides.springboot.entity.User;
+import net.codefusionhub.springboot.dto.UserDto;
 
 import java.util.List;
 
