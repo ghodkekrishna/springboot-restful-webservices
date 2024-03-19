@@ -85,7 +85,7 @@ public class UserController {
     // http://localhost:8080/api/users/1
     public ResponseEntity<UserDto> updateUser(@PathVariable("id") Long userId,
                                            @RequestBody @Valid UserDto user){
-        user.setId(userId);
+//        user.setId(userId);
         UserDto updatedUser = userService.updateUser(user);
         return new ResponseEntity<>(updatedUser, HttpStatus.OK);
     }
