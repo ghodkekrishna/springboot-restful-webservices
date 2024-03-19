@@ -1,0 +1,27 @@
+version: "1.0.0"
+
+services:
+  mysqldb:
+    container_name: mysqldb
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: employeedb
+    networks:
+      springboot-mysql-demo:
+
+  springboot-restful-webservice:
+    container_name: springboot-restful-webservice
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mysqldb
+    networks:
+      springboot-mysql-demo:
+    restart: on-failure
+
+networks:
+  springboot-mysql-demo:
